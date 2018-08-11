@@ -16,7 +16,7 @@ And then run
 ```
 
 ## Usage
-### Connecting to Server
+### Inheriting stuff
 
 Just make any class extending the BaseObject
 ```php
@@ -33,10 +33,10 @@ To use the automatic getters and setters, make your properties snake case, and y
 ```php
 $obj = new MyClass;
 $obj->my_property = 'value'; 
-// This will automatically do $obj->setMyProperty('value'); if you have defined the method. 
+// This will automatically do $obj->setMyProperty('value'); if you have defined this method. 
 
 $prop_value = $obj->my_property; 
-// This will automatically do $prop_value = $obj->getMyProperty(); if you have defined the method. 
+// This will automatically do $prop_value = $obj->getMyProperty(); if you have defined this method. 
 ```
 
 ### Helpers
