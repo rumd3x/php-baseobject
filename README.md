@@ -7,7 +7,7 @@ To install via composer add this to your composer.json
 "minimum-stability": "dev",
 "prefer-stable": true,
 "repositories": [
-	{ "type": "git", "url": "https://github.com/rumd3x/php-ftp.git" }
+	{ "type": "git", "url": "https://github.com/rumd3x/php-baseobject.git" }
 ]
 ```
 And then run
