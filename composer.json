@@ -18,11 +18,6 @@
             "Rumd3x\\BaseObject\\": "src/"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "master"
-        }
-    },
     "require": {
         "php": ">=5.5"
     }
