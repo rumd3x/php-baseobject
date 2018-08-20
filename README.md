@@ -5,10 +5,7 @@ A very helpful class to extend from and use as a base for other classes.
 To install via composer add this to your composer.json
 ```json
 "minimum-stability": "dev",
-"prefer-stable": true,
-"repositories": [
-	{ "type": "git", "url": "https://github.com/rumd3x/php-baseobject.git" }
-]
+"prefer-stable": true
 ```
 And then run
 ```sh
